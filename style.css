@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    background-color: #16c955;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#navbar ul {
+    float: right;
+    line-height: 10px;
+}
+
+#navbar ul li{
+    font-size: 16px;
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+#navbar a {
+    float: left;
+    padding: 10px;
+}
+
+#side-menu {
+    width: 0;
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+    margin-top: 80px;
+    left: 0;
+    opacity: 0.9;
+    overflow-x: hidden;
+    background-color: #231f20;
+    transition: 0.5s;
+}
+
+#side-menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 28px;
+    transition: 0.3s;
+}
+
+#side-menu a:hover {
+    color: #16c955;
+}
+
+#currentPage {
+    color: #16c955;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 28px;
+    transition: 0.3s;
+}
+
+#main {
+    width: 100%;
+    padding-top: 80px;
+    overflow: hidden;
+}
+
+#subbar {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    background-color: #16c955;
+    overflow: hidden;
+    height: 150px;
+}
+
+#botLogo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    float: left;
+    background-color: #fff;
+    margin: 30px 10px;
+}
+
+#subbar ul {
+    list-style: none;
+    color: #fff;
+    float: left;
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+#subbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#subbar ul li a:hover {
+    text-decoration: underline;
+}
+
+#leftside {
+    float: right;
+    height: 100%;
+    width: 200px;
+    text-align: justify;
+}
+
+#leftside p {
+    margin: 10px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+#bigPicture {
+    background-color: #9bf4ba;
+    width: 100%;
+    height: 400px;
+}
+
+#bigPicture img {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    font-size: 32px;
+
+}
+
+#moto {
+    font-size: 22px;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    background-color: #231f20;
+}
+
+#topLogo {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: block;
+    float: right;
+    background-color: #fff;
+    margin: 5px 5px;
+}
+
+.text {
+    width: 80%;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 0 10px 0;
+}
+
+.h1main {
+    text-align: left;
+    width: 80%;
+}
+
+#teamPhotos {
+    width: 80%;
+    border-spacing: 20px;
+}
+
+#teamPhotos tr td {
+    width: 25%;
+    height: 500px;
+    background-color: #9bf4ba;
+    padding: 10px;
+}
+
+#servicesTable {
+    width: 80%;
+    margin-top: -200px;
+    border-spacing: 40px;
+}
+
+#servicesTable tr td {
+    background-color: #16c955;
+    width: 50%;
+    padding: 40px;
+    font-size: 28px;
+}
+
+#servicesTable tr td h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.servicesPicture {
+    width: 100%;
+    height: 300px;
+    background-color: #9bf4ba;
+    margin-top: 20px;
+}
+
+#line {
+    width: 80%;
+    height: 4px;
+    background-color: #16c955;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.contactTitle {
+    margin: 20px;
+    font-size: 36px;
+}
+
+#contactsTable {
+    width: 80%;
+    border-spacing: 40px;
+}
+
+#contactsTable tr td {
+    width: 50%;
+}
+
+#contactsTable tr td p {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.longInputs {
+    width: 100%;
+    margin: 20px 0px;
+    font-size: 28px;
+    line-height: 100px;
+    padding: 0 20px 0 20px;
+    background-color: #9bf4ba;
+    border: none;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.shortInputs {
+    width: 45%;
+    margin: 5px;
+    font-size: 28px;
+    line-height: 100px;
+    padding: 0 20px 0 20px;
+    border: none;
+    background-color: #9bf4ba;
+}
+
+#submit {
+    background-color: #9bf4ba;
+    border: none;
+    font-size: 32px;
+    margin: 5px;
+    margin-top: 100px;
+    line-height: 100px;
+    padding: 0 20px 0 20px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    opacity: 0.8;
+    transition: 1s;
+}
+
+#btn {
+    transition: 0.5s;
+}

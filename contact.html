@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <meta charset = "utf-16">
+        <title>Agabaritice.ro</title>
+        <link href = "./style.css" rel = "stylesheet">
+    </head>
+    <body>
+      <nav id = "navbar">
+        <a href = "#" onclick = "manageBtn()">
+          <svg width = "60" height = "60" id = "btn">
+            <path d = "M0, 10 60, 10" stroke = "#fff" stroke-width = "10"></path>
+            <path d = "M0, 30 60, 30" stroke = "#fff" stroke-width = "10"></path>
+            <path d = "M0, 50 60, 50" stroke = "#fff" stroke-width = "10"></path>
+          </svg>
+        </a>
+        <span id = "topLogo"></span>
+        <ul>
+          <li><a href = "#">Mail&StuffLikeThat</a></li>
+          <li><a href = "#">Mail&StuffLikeThat</a></li>
+        </ul>
+      </nav>
+
+      <div id = "side-menu">
+        <a href = "./index.html">Acasă</a>
+        <a href = "./servicii.html">Servicii</a>
+        <div id = "currentPage">Contact</div>
+      </div>
+
+      <div id = "main">
+        <div align = "center" style = "margin: 20px;">
+          <span class = "photo"></span>
+          <h1 class = "contactTitle">NumeFirma</h1>
+          <span id = "line"></span>
+          <h1 class = "contactTitle">Contacte</h2>
+        </div>
+
+        <div style = "width: 100%; background-color: #9bf4b9;">
+          <table id = "contactsTable" align = "center">
+            <tr>
+              <td>
+                <p>EmailEmailEmailEmail</p>
+                <p>TelefonTelefonTelefon</p>
+                <p>Contacte Contacte Contacte Contacte Contacte Contacte Contacte Contacte Contacte Contacte </p>
+                <p>Adresa: Str. George Lesnea Nr. 4A</p>
+                <div class="mapouter">
+                  <div class="gmap_canvas">
+                    <iframe width = "600" height = "400" id = "gmap_canvas" src = "https://maps.google.com/maps?q=Str.%20George%20Lesnea%20Nr%204A&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder = "0" scrolling = "no" marginheight = "0" marginwidth = "0"></iframe>
+                    <a href="https://www.whatismyip-address.com/divi-discount/"></a>
+                  </div>
+                  <style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right; 
+                    height: 400px;
+                    width: 600px;
+                  }
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none!important;
+                    height: 400px;
+                    width: 600px;
+                  }
+                  </style>
+                </div>
+              </td>
+              <td>
+                <div align = "center" style = "background-color: #16c955; padding: 20px;">
+                  <h1 class = "contactTitle">Formular</h1>
+                  <form action = "form.php" method = "POST">
+                    <input type = "text" name = "name" placeholder = "Nume complet" class = "longInputs">
+                    <input type = "email" name = "mail" placeholder = "Email"  class = "longInputs">
+                    <input type = "tel" name = "phone" placeholder = "Telefon"  class = "longInputs">
+                    <br><br><br>
+                    <input type = "number" name = "weight" placeholder = "Greutate" class = "shortInputs">
+                    <input type = "number" name = "height" placeholder = "Înălțime" class = "shortInputs">
+                    <input type = "number" name = "width" placeholder = "Lățime" class = "shortInputs">
+                    <input type = "number" name = "length" placeholder = "Lungime"  class = "shortInputs">
+                    <button type = "submit" name = "submit" id = "submit">Trimite formularul</button>
+                  </form>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <footer>
+        <nav id = "subbar">
+          <span id = "botLogo"></span>
+          <ul>
+            <li>Telefon: 0735 246 766</li>
+            <li>Email: <a href = "#">robertgeorgesmau@gmail.com</a></li>
+            <li>Adresa: Str. George Lesnea Nr. 4A</li>
+          </ul>
+          <div id = "leftside">
+            <p>Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text </p>
+          </div>
+        </nav>
+      </footer>
+      <script src = "main.js"></script>
+    </body>
+</html>
